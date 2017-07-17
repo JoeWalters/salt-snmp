@@ -5,4 +5,5 @@
   'RedHat': {
     'package': 'net-snmp-utils',
   },
-}, merge=salt['pillar.get']('snmp:lookup:client')) %}
+}, default='RedHat') %} 
+#merge=salt['pillar.get']('snmp:lookup:client')) %}

@@ -9,4 +9,5 @@
     'service': 'snmpd',
     'config': '/etc/snmp/snmpd.conf',
   },
-}, merge=salt['pillar.get']('snmp:lookup:server')) %}
+},default='RedHat') %}
+# merge=salt['pillar.get']('snmp:lookup:server')) %}

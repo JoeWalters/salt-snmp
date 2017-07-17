@@ -20,3 +20,7 @@ snmp:
       config: /etc/snmp/snmp.conf
     client:
       package: snmp
+  hostname.localdomain:
+    conf:
+      location: 'Virt VM'
+      syscontact: 'NAME >name@site.com>'
